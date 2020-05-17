@@ -14,10 +14,9 @@ class CreateMaLoginNegociosTable extends Migration
     public function up()
     {
         Schema::create('MA_LOGIN_NEGOCIOS', function (Blueprint $table) {
-            $table->string('USUARIOS_USUARIO',150)->primary();
-            $table->string('USUARIO_CONTRASENIA');
-            $table->string('NUMERO',10);
-            $table->timestamps();
+            $table->string('LOGIN_USUARIO',150)->primary();
+            $table->string('LOGIN_CONTRASENIA');
+            $table->string('LOGIN_NUMERO',10);
         });
     }
 

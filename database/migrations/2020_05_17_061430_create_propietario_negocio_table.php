@@ -27,6 +27,6 @@ class CreatePropietarioNegocioTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('PROPIETARIO_NEGOCIO');
+        Schema::dropIfExists('MA_PROPIETARIO_NEGOCIO');
     }
 }

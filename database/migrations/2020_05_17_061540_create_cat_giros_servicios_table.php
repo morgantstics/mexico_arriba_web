@@ -14,7 +14,7 @@ class CreateCatGirosServiciosTable extends Migration
     public function up()
     {
         Schema::create('MA_SERVICIOS', function (Blueprint $table) {
-            $table->increments('GIROS_ID');
+            $table->increments('SERVICIOS_ID');
             $table->string('SERVICIOS_SERVICIO');
         });
     }

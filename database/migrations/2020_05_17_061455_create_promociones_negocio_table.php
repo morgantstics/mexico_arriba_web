@@ -26,6 +26,6 @@ class CreatePromocionesNegocioTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('PROMOCIONES_NEGOCIO');
+        Schema::dropIfExists('MA_PROMOCIONES_NEGOCIO');
     }
 }
